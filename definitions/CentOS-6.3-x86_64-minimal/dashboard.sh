@@ -93,7 +93,7 @@ cat > /etc/init.d/carbon-cache <<EOF
 #
 # This is used to start/stop the carbon-cache daemon
 
-# chkconfig: - 99 01
+# chkconfig: - 90 01
 # description: Starts the carbon-cache daemon
 
 # Source function library.
