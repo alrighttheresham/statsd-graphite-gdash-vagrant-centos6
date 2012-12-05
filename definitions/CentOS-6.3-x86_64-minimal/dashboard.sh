@@ -301,14 +301,9 @@ chown -R apache:apache /opt/gdash
 popd 
 
 
-# Start services
-service httpd start
+# Start services on boot
 chkconfig httpd on 
-
-service carbon-cache start 
 chkconfig --level 345 carbon-cache on 
-
-service statsd restart
 chkconfig --level 345 statsd on
 
 
