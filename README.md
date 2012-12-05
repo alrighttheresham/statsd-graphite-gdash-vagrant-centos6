@@ -66,6 +66,7 @@ If all went well, we can now export our base box for testing.
 
 That’s it, the VM is ready to use with vagrant.
 
+**NOTE** If anything funky happens in the future due to packages / rpms being updated I suspect it will most likely be to do with passenger_module directory references for the static libraries in the passenger.conf definition in https://raw.github.com/alrighttheresham/statsd-graphite-gdash-vagrant-centos6/master/definitions/CentOS-6.3-x86_64-minimal/dashboard.sh 
 
 credits
 =======
