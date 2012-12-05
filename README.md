@@ -32,6 +32,10 @@ Assuming no issues at this point the VM will be running and can be accessed with
 
 This will provide console access to the VM.
 
+**NOTE** I have noticed that the first vagrant up is run networking is not available before statsd starts, so it fails.  This is resolved by reloading the VM.  
+
+      vagrant reload
+
 
 building
 ========
