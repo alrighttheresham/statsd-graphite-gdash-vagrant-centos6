@@ -16,7 +16,7 @@ installation and use
 
 The solution assumes that you have [virtualbox](https://www.virtualbox.org/) and [vagrant](http://vagrantup.com/) already setup on your host machine.
 
-Create the dashboards directory before starting.
+**NOTE** Create the dashboards directory before starting.
 
       mkdir ./dashboards
 
