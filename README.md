@@ -20,7 +20,7 @@ Create the dashboards directory before starting.
 
       mkdir ./dashboards
 
-      wget https://github.com/alrighttheresham/statsd-graphite-gdash-vagrant-centos6/blob/master/Vagrantfile
+      wget https://raw.github.com/alrighttheresham/statsd-graphite-gdash-vagrant-centos6/master/Vagrantfile
 
       vagrant box add CentOS-6.3-x86_64-minimal https://dl.dropbox.com/u/6164051/CentOS-6.3-x86_64-minimal.box 
 
