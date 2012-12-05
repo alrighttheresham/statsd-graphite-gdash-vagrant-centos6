@@ -8,7 +8,7 @@ overview
 
 The project contains a workspace that allows you to create a Vagrant box based on CentOS 6 that contains all the necessary requirements to visualise a [gdash](https://github.com/ripienaar/gdash) based [graphite](http://graphite.wikidot.com/) solution.  The virtual machine also provides a statsd server that can be utilised by the host to push stats into graphite.  
 
-The VM is setup with hostonly networking on 33.33.33.10 and a mountpoint created in the hosts local directory called ./dashboards that can be used to configure gdash dashboards in the VM.  gdash and graphites web interfaces are port forwarded on the host to ports 9090 and 9091.
+The VM is setup with hostonly networking on 33.33.33.10 and a mountpoint created in the hosts local directory called ./dashboards that can be used to configure gdash dashboards in the VM.  
 
 
 installation and use
