@@ -93,7 +93,7 @@ cat > /etc/init.d/carbon-cache <<EOF
 #
 # This is used to start/stop the carbon-cache daemon
 
-# chkconfig: - 90 01
+# chkconfig: 345 90 10
 # description: Starts the carbon-cache daemon
 
 # Source function library.
@@ -192,7 +192,6 @@ cat > /etc/init.d/statsd <<EOF
 # StatsD
 #
 # chkconfig: 345 99 01
-#
 # description: StatsD init.d
 #
 . /etc/rc.d/init.d/functions
@@ -307,10 +306,10 @@ service httpd start
 chkconfig httpd on 
 
 service carbon-cache start 
-chkconfig carbon-cache on 
+chkconfig --level 345 carbon-cache on 
 
 service statsd restart
-chkconfig statsd on
+chkconfig --level 345 statsd on
 
 
 
